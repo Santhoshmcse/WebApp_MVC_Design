@@ -1,0 +1,82 @@
+.Loginscreen
+{
+  background-image: url("/images/Food1.jpg");
+
+  background-size: cover;
+    
+    text-align: center;
+}
+.centered-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgb(13, 1, 2);
+  width: 378px;
+  text-align: left;
+  padding: 20px; /* Add padding to create space inside the container */
+}
+
+.centered-element .form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Equal space between label and input */
+  align-items: center; /* Vertical alignment */
+  margin-bottom: 10px;
+}
+
+.centered-element .form-group2 {
+text-align: center;
+}
+.centered-element label {
+  width: 120px; /* Fixed width for the labels (adjust as needed) */
+}
+
+.centered-element input {
+  flex: 1; /* Input fields take up the remaining horizontal space */
+}
+
+.Signup
+{
+  background-image: url("/images/Food1.jpg");
+  background-size: cover;
+}
+#Signup
+{
+  text-align: center;
+}
+#login
+{
+  text-align: center;
+}
+
+
+.centered-element2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgb(13, 1, 2);
+  width: 378px;
+  text-align: left;
+  padding: 20px; /* Add padding to create space inside the container */
+}
+
+.centered-element2 .form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Equal space between label and input */
+  align-items: center; /* Vertical alignment */
+  margin-bottom: 10px;
+}
+
+.centered-element2 .form-group2 {
+text-align: center;
+}
+.centered-element2 label {
+  width: 120px; /* Fixed width for the labels (adjust as needed) */
+}
+
+.centered-element2 input {
+  flex: 1; /* Input fields take up the remaining horizontal space */
+}
