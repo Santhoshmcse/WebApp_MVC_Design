@@ -1,4 +1,5 @@
-# WebApp_MVC_Design `(Spring Boot)`
+#Online food Order Application Design `(Spring Boot)`
 
- * Basic CRUD operation using H2 Database
+ * SignUp page design completed
+ * DB data insetion completed after registration from sign up page (Database: PostgreSQL)
  * Developed by [Santhosh](https://github.com/Santhoshmcse)
