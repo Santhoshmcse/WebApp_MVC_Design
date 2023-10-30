@@ -1,4 +1,4 @@
-# WebApp_MVC_Design `(Spring Boot)`
+# Food Order UI Design
 
- * Basic CRUD operation using H2 Database
+ * HTML, CSS and Js logic are carried out in design elements
  * Developed by [Santhosh](https://github.com/Santhoshmcse)
