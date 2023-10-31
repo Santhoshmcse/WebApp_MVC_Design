@@ -165,12 +165,13 @@ text-align: center;
   position: fixed;
   top: 0;
   left: 0; /* Position it on the left side */
-  background-color: #333;
+  background-color: #8185ed;
   overflow-x: hidden;
   transition: 0.5s;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-left: 10px;
+  
 }
 
 .side-window.open {
@@ -182,8 +183,25 @@ text-align: center;
   color: #fff;
   margin: 10px 0;
   font-size: 16px;
+  
 }
 
 .side-window a:hover {
   text-decoration: underline;
+}
+#slide-menu
+{
+  color: #ae1e1e;
+}
+/* CSS to hide sub-menu by default */
+.submenu {
+  display: none;
+}
+
+/* CSS for the "+" icon */
+.plus-icon::before {
+  
+  cursor: pointer;
+ 
+
 }

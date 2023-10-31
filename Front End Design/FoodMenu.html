@@ -14,21 +14,118 @@
         </a>
         <img src="images/Logo.jpg" class="logo">
         <div class="logo-title"> Santhosh Spice Delight  </div>
-
-        <!-- Add more menu items as needed -->
     </div>
 
     <div class="side-window" id="sideWindow">
+        <h1 id="slide-menu">MENU</h1>
         <!-- Add navigation links or content for the side window -->
-        <a href="#">Page 1</a>
-        <a href="#">Page 2</a>
-        <a href="#">Page 3</a>
-        <a href="#">Page 4</a>
-        
+        <ul>
+            <li>
+                <a href="#" onclick="toggleSubMenu('reservation-management-submenu')">Reservation Management</a>
+                <!-- Sub-menu under "Reservation Management" -->
+                <span class="plus-icon" onclick="toggleSubMenu('reservation-management-submenu')">+</span> <!-- Plus icon to expand sub-menu -->
+                <ul class="submenu" id="reservation-management-submenu">
+                    <li><a href="/Reservation and management/viewresrvation.html">View Reservations</a></li>
+                    <li><a href="#">Add Reservation</a></li>
+                    <li><a href="#">Edit Reservation</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+               
+                <a href="#"  onclick="toggleSubMenu('order-management-submenu')">Order Management</a>
+                <!-- Sub-menu under "Reservation Management" -->
+                <span class="plus-icon" onclick="toggleSubMenu('order-management-submenu')">+</span> <!-- Plus icon to expand sub-menu -->
+                <ul class="submenu" id="order-management-submenu">
+                    <li><a href="#">View Reservations</a></li>
+                    <li><a href="#">Add Reservation</a></li>
+                    <li><a href="#">Edit Reservation</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+               
+                <a href="#"  onclick="toggleSubMenu('billing-and-invoicing-submenu')">Billing And Invoicing</a>
+                <!-- Sub-menu under "Reservation Management" -->
+                <span class="plus-icon"  onclick="toggleSubMenu('billing-and-invoicing-submenu')">+</span> <!-- Plus icon to expand sub-menu -->
+                <ul class="submenu" id="billing-and-invoicing-submenu">
+                    <li><a href="#">View Reservations</a></li>
+                    <li><a href="#">Add Reservation</a></li>
+                    <li><a href="#">Edit Reservation</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+               
+                <a href="#"  onclick="toggleSubMenu('inventory-management-submenu')">Inventory Management</a>
+                <!-- Sub-menu under "Reservation Management" -->
+                <span class="plus-icon" onclick="toggleSubMenu('inventory-management-submenu')">+</span> <!-- Plus icon to expand sub-menu -->
+                <ul class="submenu" id="inventory-management-submenu">
+                    <li><a href="#">View Reservations</a></li>
+                    <li><a href="#">Add Reservation</a></li>
+                    <li><a href="#">Edit Reservation</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+               
+                <a href="#" onclick="toggleSubMenu('user=profile-management-submenu')">User Profile Management</a>
+                <!-- Sub-menu under "Reservation Management" -->
+                <span class="plus-icon" onclick="toggleSubMenu('user=profile-management-submenu')">+</span> <!-- Plus icon to expand sub-menu -->
+                <ul class="submenu" id="user=profile-management-submenu">
+                    <li><a href="#">View Reservations</a></li>
+                    <li><a href="#">Add Reservation</a></li>
+                    <li><a href="#">Edit Reservation</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+               
+                <a href="#" onclick="toggleSubMenu('analytics-and-reprting-submenu')">Analytics And Reporting</a>
+                <!-- Sub-menu under "Reservation Management" -->
+                <span class="plus-icon"  onclick="toggleSubMenu('analytics-and-reprting-submenu')">+</span> <!-- Plus icon to expand sub-menu -->
+                <ul class="submenu" id="analytics-and-reprting-submenu">
+                    <li><a href="#">View Reservations</a></li>
+                    <li><a href="#">Add Reservation</a></li>
+                    <li><a href="#">Edit Reservation</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+               
+                <a href="#"  onclick="toggleSubMenu('settings-and-configurationn-submenu')">Settings And Configuration</a>
+                <!-- Sub-menu under "Reservation Management" -->
+                <span class="plus-icon" onclick="toggleSubMenu('settings-and-configurationn-submenu')">+</span> <!-- Plus icon to expand sub-menu -->
+                <ul class="submenu" id="settings-and-configurationn-submenu">
+                    <li><a href="#">View Reservations</a></li>
+                    <li><a href="#">Add Reservation</a></li>
+                    <li><a href="#">Edit Reservation</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>
+               
+                <a href="#" onclick="toggleSubMenu('support-and-helpdesk')">Support And HelpDesk</a>
+                <!-- Sub-menu under "Reservation Management" -->
+                <span class="plus-icon" onclick="toggleSubMenu('support-and-helpdesk')">+</span> <!-- Plus icon to expand sub-menu -->
+                <ul class="submenu" id="support-and-helpdesk">
+                    <li><a href="#">View Reservations</a></li>
+                    <li><a href="#">Add Reservation</a></li>
+                    <li><a href="#">Edit Reservation</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!-- Add more menu items with sub-menus here -->
+
     </div>
 
-    
-    
-    <script src="javascript.js"></script>  
+    <script src="javascript.js"></script>
 </body>
 </html>
