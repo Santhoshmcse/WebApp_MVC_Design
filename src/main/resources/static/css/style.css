@@ -1,10 +1,9 @@
 .Loginscreen
 {
-  background-image: url("/images/Food1.jpg");
-
+ width: 1522px; /* Adjust the size as needed */
+  height: 722px;
+  
   background-size: cover;
-    
-    text-align: center;
 }
 .centered-element {
   position: absolute;
@@ -38,14 +37,16 @@ text-align: center;
 
 .Signup
 {
-  background-image: url("/images/Food1.jpg");
+   width: 1522px; /* Adjust the size as needed */
+  height: 722px;
+  
   background-size: cover;
 }
 #Signup
 {
   text-align: center;
 }
-#login
+#id
 {
   text-align: center;
 }
@@ -53,7 +54,7 @@ text-align: center;
 
 .centered-element2 {
   position: absolute;
-  top: 50%;
+  top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: 5px solid rgb(13, 1, 2);
@@ -80,3 +81,523 @@ text-align: center;
 .centered-element2 input {
   flex: 1; /* Input fields take up the remaining horizontal space */
 }
+
+
+/* home page*/
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #0073e6; /* Link color */
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span {
+  margin: 0 5px;
+  color: #999; /* Separator color */
+}
+
+.current-page {
+  font-weight: bold;
+  color: #333; /* Current page color */
+}
+
+
+.menu-bar {
+  display: flex;
+  
+  align-items: center;
+  background-color: #c4c5e5; /* Background color for the menu bar */
+  color: #fff; /* Text color for menu items and logo */
+  padding: 2px;
+}
+
+
+/* Style for the menu link */
+.menu-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column; /* Change the direction to column to place text below */
+  color: #333; /* Text color */
+  font-weight: bold;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+/* Style for the menu icon */
+.menu-icon {
+  width: 50px; /* Adjust the size as needed */
+  height: auto; /* Adjust the size as needed */
+  margin-right: 0px; /* Add space between the icon and text */
+}
+
+/* Style for the menu text */
+.menu-text {
+  margin: 0;
+  font-size: 20px; /* Adjust the font size as needed */
+  
+}
+.logo {
+  width: 50px; /* Adjust the size as needed */
+  height: 70px; /* Maintain aspect ratio */
+  padding-left: 25px;
+}
+
+.logo-title{
+  padding-left: 10px;
+  color: rgb(18, 10, 10);
+  font-style: bold;
+  font-size: 30px;
+
+}
+/* Style for the side window */
+.side-window {
+  width: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; /* Position it on the left side */
+  background-color: #8185ed;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  
+}
+
+.side-window.open {
+  width: 250px; /* Adjust the width as needed */
+}
+
+.side-window a {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px 0;
+  font-size: 16px;
+  
+}
+
+.side-window a:hover {
+  text-decoration: underline;
+}
+#slide-menu
+{
+  color: #ae1e1e;
+}
+/* CSS to hide sub-menu by default */
+.submenu {
+  display: none;
+}
+/* CSS to hide sub-menu by default */
+.submenu {
+  display: none;
+}
+
+/* Add more styles for submenus as needed */
+.submenu.open {
+  display: block;
+}
+
+
+/* CSS for the "+" icon */
+.plus-icon::before {
+  
+  cursor: pointer;
+ 
+}
+.bar {
+  width: 100%;
+  height: 40px;
+  background-color: #3498db;
+ 
+}
+.help-link {
+  position: absolute;
+  left:50%;
+  padding-top: 12px;
+  padding-left: 5px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.help-link:hover {
+  background-color: #2577b5;
+}
+.home-link {
+ 
+
+
+  margin-left:5px ;
+  margin-top: 5px;
+
+ 
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  padding: 0px 5px 15px;
+  border-radius: 5px;}
+
+.home-link:hover {
+  background-color: #2577b5;
+}
+.reservation-icon
+{
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.ordermanagement-icon {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.billing-icon {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.inventory-icon {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.userprofile-icon {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.analytics-icon {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.settings-icon {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.support-icon {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+.logos {
+  display: flex; /* Display the logos in a flex container */
+  align-items: center; /* Vertically center align the logos */
+}
+.ibar{
+  padding-top: 5px;
+  text-align: center;
+  
+}
+/* Style for the close button (X icon) */
+.close-button {
+  cursor: pointer;
+ width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000; /* Red color */
+ 
+}
+
+.New-button{
+  cursor: pointer;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000; /* Red color */
+}
+
+.save{
+  cursor: pointer;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000; /* Red color */
+}
+
+.submit{
+  cursor: pointer;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000; /* Red color */
+}
+
+
+
+/* Style for the delete button */
+.delete-button {
+  cursor: pointer;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000; /* Red color */
+}
+
+/* Hover effect for the delete button */
+.delete-button:hover {
+  background-color: #cc0000; /* Darker red background color */
+}
+
+/* Style for the search container */
+.search-container {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  
+}
+
+/* Style for the label */
+label {
+  margin-right: 10px;
+  font-weight: bold;
+ 
+}
+
+/* Style for the search input field */
+.search-input {
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+.selectOption
+{
+  margin-right: 5px;
+ padding: 5px;
+ padding-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px; 
+}
+
+/* Style for the search button */
+.search-button {
+  cursor: pointer;
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+  background-color: #0056b3; /* Darker blue background color */
+}
+
+.registration-request {
+  background-color: #f2f2f2;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.registration-request p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.registration-request label {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.registration-request input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Style the selected radio button */
+.registration-request input[type="radio"]:checked + label {
+  color: #007bff; /* Change to the color you prefer */
+}
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.styled-table th, .styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #f2f2f2;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+  background-color: #ddd;
+}
+
+
+/* CSS for labels */
+label {
+  font-weight: bold; /* Make labels bold */
+  margin-right: 10px; /* Add some spacing between labels and input fields */
+}
+
+/* CSS for date input fields */
+input[type="date"] {
+  padding: 5px; /* Add padding to the input fields */
+  border: 1px solid #ccc; /* Add a border to the input fields */
+  border-radius: 5px; /* Round the input field corners */
+  background-color: #f9f9f9; /* Set a background color */
+}
+
+/* CSS to show the elements with "display: inline-block;" */
+/* This overrides the "display: none;" inline style from your HTML */
+#from-date-label,
+#from-date,
+#to-date-label,
+#to-date {
+  margin-left: 5px;
+  display: inline-block;
+}
+.commandetailsbar {
+  margin-top: 5px;
+  text-align: center;
+  background-color: rgb(27, 144, 187); /* Add a background color if needed */
+  padding: 10px; /* Add padding to create space around the content */
+}
+
+.ColFields {
+  display: inline-block;
+  text-align: left;
+
+  padding: 0;
+  width: 100%;
+
+  
+}
+.commandetailsbar h5 {
+  margin: 0; /* Set margin to zero to remove default margin */
+  padding: 0; /* Set padding to zero to remove default padding */
+  text-align: center;
+  font-style: bold;
+}
+
+ /* Your existing styles */
+ .container {
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  border: 1px solid #83bae3;
+  padding: 5px;
+  margin: 10px;
+  width: 30%;
+  box-sizing: border-box;
+  background-color: #76baf5;
+}
+
+h2 {
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.section-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.section-label label {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.section-label input {
+  flex: 1;
+  padding: 4px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.amount-info {
+  margin-top: 20px;
+
+}
+.amount-info h2 {
+  margin-bottom: 10px;
+}
+.amount-info div {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.amount-info label {
+  display: block;
+  margin-bottom: 5px;
+}
+.amount-info input[type="number"] {
+  width: 100px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+.amount-box{
+  border: 1px solid #83bae3;
+  padding: 5px;
+  margin: 10px;
+  width: 99%;
+  box-sizing: border-box;
+  background-color: #76baf5;
+}
+.btn-image
+{
+  
+  height:25px;
+  width:5px;
+  margin-left: 2px;
+}
+

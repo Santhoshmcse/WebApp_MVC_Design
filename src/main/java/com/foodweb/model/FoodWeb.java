@@ -32,6 +32,18 @@ public class FoodWeb {
 
     @Column(name = "gender")
     private String Gender;
+    
+    private String role;
+
+    // Other fields, constructors, and methods
+
+    public String getRole() {
+        return role;
+    }
+
+    public boolean isAdmin() {
+        return "admin".equals(role);
+    }
 
     // Default no-argument constructor
     public FoodWeb() {

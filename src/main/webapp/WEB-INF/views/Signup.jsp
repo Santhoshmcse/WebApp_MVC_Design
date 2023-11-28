@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body class="Signup">
+<img src="images/Food1.jpg" class="Signup">
+
     <div class="centered-element2">
         <h1 id="Signup">Sign up</h1>
         <form action="addUser" onsubmit="return validateForm();">
@@ -45,6 +47,8 @@
     </form>
         <p>Already have an account? <a href="login">Login</a></p>
     </div>
+    </div>
     <script src="/js/javascript.js"></script>
+
 </body>
 </html>
